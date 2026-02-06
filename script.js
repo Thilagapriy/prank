@@ -25,10 +25,11 @@ yesBtn.addEventListener('click', () => {
     if(emojiDisplay) emojiDisplay.innerText = "😇";
     
     // 2. Change text (Fixed the quotes around "ANSWER")
-    question.innerText = "Hehehe! I Knew it! ❤️";
-    subHeading.innerHTML = "Are you ❤️ me or not ❤️ me; but I am always be waiting for your 'ANSWER' and I am always falling for you only after that we joined together to eat <b>panipuri</b> in <b>our money</b> 😉";
+    question.innerText = "Hehehe! I Knew it! ";
+    subHeading.innerHTML = "Are you L me or not L me; but I am always be waiting for your 'ANSWER' and I am always falling for you only after that we joined together to eat <b>panipuri</b> in <b>our money</b> 😉";
     
     // 3. Hide buttons
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
+
 });
