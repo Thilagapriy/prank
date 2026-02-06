@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Use your uploaded image as background */
+    background-image: url('WhatsApp Image 2026-02-06 at 2.12.49 PM.jpeg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden;
+}
+
+.main-card {
+    background: rgba(255, 255, 255, 0.9); /* White with transparency */
+    padding: 60px; /* Doubled from 30px */
+    border-radius: 40px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 800px; /* Doubled size */
+}
+
+#emoji-display {
+    font-size: 150px; /* Big emoji */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3.5rem; /* Doubled from 1.8rem */
+    color: #d63384;
+}
+
+#sub-heading {
+    font-size: 2rem; /* Doubled from 1.1rem */
+    margin: 25px 0;
+    color: #333;
+    line-height: 1.4;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    position: relative;
+    min-height: 100px;
+}
+
+button {
+    padding: 20px 50px; /* Doubled size */
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 2rem; /* Doubled size */
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#yes-btn {
+    background-color: #ff4d6d;
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 77, 109, 0.3);
+}
+
+#no-btn {
+    background-color: #f0f0f0;
+    color: #333;
+    position: absolute;
+    /* Centering the No button initially */
+    left: 60%; 
+}
